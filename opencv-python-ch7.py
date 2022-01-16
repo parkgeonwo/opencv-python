@@ -37,7 +37,7 @@ def stackImages(scale,imgArray):
 def empty(a):
     pass
 
-path = "./image/pig.jpg"
+path = "./image/lambo.PNG"
 
 cv2.namedWindow("TrackBars")      # trackbar를 만들기 위한 window 창 생성
 cv2.resizeWindow("TrackBars", 640,240)      # trackbar 크기 조절
