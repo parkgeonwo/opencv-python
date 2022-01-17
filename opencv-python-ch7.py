@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-def stackImages(scale,imgArray):
+def stackImages(scale,imgArray):         # cv2.imshow한것을 한장에 배열해주는 함수
     rows = len(imgArray)
     cols = len(imgArray[0])
     rowsAvailable = isinstance(imgArray[0], list)
