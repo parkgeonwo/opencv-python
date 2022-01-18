@@ -1,4 +1,5 @@
 # chpater 8 : contours / shape detection  (윤곽, 모양 디텍션)
+
 # contour란 같은 값을 가진 곳을 연결한 선이라고 생각하면 된다.
 # 예를들면, 같은 높이를 이은 등고선 / 등압선 , 색상에서는 색상강도가 같은 경계를 뜻함
 
@@ -42,6 +43,7 @@ def getContours(img):    # contours를 얻기위한 함수 생성
     # img는 contour찾기를 할 소스 이미지 , 두번째는 contour 추출 모드 --> hierarchy에 영향을 줌
     # 세번째는 contour 근사 방법, none은 contour를 구성하는 모든 점을 저장
     # 검색방법과 근사화 방법은 코드 맨 아래에 추가 정리하였습니다~
+
     for cnt in contours:
         area = cv2.contourArea(cnt)  # 각 contours이 감싸는 영역의 넓이를 구함
         # print(area)
@@ -52,7 +54,7 @@ def getContours(img):    # contours를 얻기위한 함수 생성
             # print(peri)
             approx = cv2.approxPolyDP(cnt, 0.02*peri, True)     
             # 윤곽선을 근사화(단순화)합니다. 인자로 주어진 곡선 또는 다각형을 epsilon 값에 따라 꼭지점 수를 줄여 새로운 곡선이나 다각형을 생성하여 리턴
-            # numpy array형식의 곡선 또는 다각형 / 근사 정확도(epsilon) : 오리지널, 근사커브간 거리 최대값 / 폐곡선 or 열린 곡선
+            # (cnt) numpy array형식의 곡선 또는 다각형 / 근사 정확도(epsilon) : 오리지널, 근사커브간 거리 최대값 / (TF) 폐곡선 or 열린 곡선
             # print(approx)   
 
             objCor = len(approx)  # contour을 근사화한 점의 갯수를 의미 

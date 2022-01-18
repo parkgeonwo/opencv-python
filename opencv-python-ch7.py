@@ -53,7 +53,8 @@ while True:
 
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     # HSV(Hue, Saturation, Value) 공간은 색상을 표현하기에 간편한 색상 공간
-    h_min =cv2.getTrackbarPos("Hue Min","TrackBars")   # h_min 변화에 따라 계속 추적/알림
+
+    h_min =cv2.getTrackbarPos("Hue Min","TrackBars")   # h_min의 trackbar에 따라 계속 추적/알림 , bar를 움직이면 변화
     # print(h_min)
     h_max =cv2.getTrackbarPos("Hue Max","TrackBars")
     s_min =cv2.getTrackbarPos("Sat Min","TrackBars")
@@ -64,8 +65,8 @@ while True:
 
     lower = np.array([h_min,s_min,v_min])
     upper = np.array([h_max,s_max,v_max])
-    mask = cv2.inRange(imgHSV, lower, upper)   # lower limit, upper limit
-    imgResult = cv2.bitwise_and(img,img,mask=mask)  # mask 범위 내에서 두개의 array의 비트연산 and(&) 결과
+    mask = cv2.inRange(imgHSV, lower, upper)   # img, lower limit, upper limit / 특정 범위 안에 있는 행렬 원소 검출 
+    imgResult = cv2.bitwise_and(img, img, mask=mask)  # mask 범위 내에서 두개의 array의 비트연산 and(&) 결과
 
     # cv2.imshow("Original", img)
     # cv2.imshow("HSV",imgHSV)
