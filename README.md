@@ -7,7 +7,7 @@ opencv-python-practice
 
 ### chapter 1 : read images - videos - webcam
 
-- imread / imshow / waitKey / VideoCapture / set / read / 
+- imread / imshow / waitKey / VideoCapture / set / read / IMREAD_COLOR / IMREAD_GRAYSCALE / IMREAD_UNCHANGED / destroyAllwindows
 
 ### chapter 2 : basic functions
 
@@ -19,7 +19,7 @@ opencv-python-practice
 
 ### chpater 4 : shpaes and texts
 
-- line / rectangle / circle / putText
+- line / rectangle / circle / putText / polylines / fillPoly
 
 ### chapter 5 : warp perspective
 
