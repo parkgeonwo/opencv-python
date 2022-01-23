@@ -1,4 +1,5 @@
 # chpater 8 : contours / shape detection  (윤곽, 모양 디텍션)
+# findContours / contourArea / drawContours / arcLength / approxPolyDP / boundingRect
 
 # contour란 같은 값을 가진 곳을 연결한 선이라고 생각하면 된다.
 # 예를들면, 같은 높이를 이은 등고선 / 등압선 , 색상에서는 색상강도가 같은 경계를 뜻함

@@ -1,4 +1,5 @@
 # chapter 9 : face detection
+# dectectMultiScale
 
 import cv2
 from cv2 import CascadeClassifier

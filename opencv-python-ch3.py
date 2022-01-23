@@ -1,4 +1,5 @@
 # chapter 3 : resizing and cropping
+# resize / crop
 
 import cv2
 import numpy as np

@@ -1,4 +1,5 @@
 # chapter 7 : color detection
+# nameWindow / resizeWindow / createTrackbar / getTrackbarPos / inrange / bitwise_and
 
 import cv2
 import numpy as np

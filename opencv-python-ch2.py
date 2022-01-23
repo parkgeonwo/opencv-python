@@ -1,4 +1,5 @@
 # ch2 : basic functions
+# cvtColor / GaussianBlur / Canny / dilate / erode
 
 import cv2
 import numpy as np

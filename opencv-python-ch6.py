@@ -1,4 +1,5 @@
 # chpater 6 : joining images
+# hstack / vstack
 
 import cv2
 import numpy as np
