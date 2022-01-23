@@ -40,4 +40,8 @@ opencv-python-practice
 
 - dectectMultiScale
 
+### chapter 10 : 이미지 저장 / 동영상 저장
+
+- imwrite / get / VideoWriter_fourcc / CAP_PROP_FRAME_WIDTH / CAP_PROP_FPS / VideoWriter
+
 
