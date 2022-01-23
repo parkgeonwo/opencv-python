@@ -1,5 +1,5 @@
 # 이미지 저장 / 동영상 저장
-# imwrite
+# imwrite / get / VideoWriter_fourcc / CAP_PROP_FRAME_WIDTH / CAP_PROP_FPS / VideoWriter
 
 # 이미지 저장
 import cv2
