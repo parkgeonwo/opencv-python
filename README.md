@@ -7,7 +7,7 @@ opencv-python-practice
 
 ### chapter 1 : read images - videos - webcam
 
-- imread / imshow / waitKey / VideoCapture / set / read / 
+- imread / imshow / waitKey / VideoCapture / set / read / IMREAD_COLOR / IMREAD_GRAYSCALE / IMREAD_UNCHANGED / destroyAllwindows
 
 ### chapter 2 : basic functions
 
@@ -19,7 +19,7 @@ opencv-python-practice
 
 ### chpater 4 : shpaes and texts
 
-- line / rectangle / circle / putText
+- line / rectangle / circle / putText / polylines / fillPoly
 
 ### chapter 5 : warp perspective
 
@@ -39,5 +39,9 @@ opencv-python-practice
 ### chapter 9 : face detection
 
 - dectectMultiScale
+
+### chapter 10 : 이미지 저장 / 동영상 저장
+
+- imwrite / get / VideoWriter_fourcc / CAP_PROP_FRAME_WIDTH / CAP_PROP_FPS / VideoWriter
 
 
