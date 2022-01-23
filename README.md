@@ -5,7 +5,7 @@ opencv-python-practice
 
 - imread / imshow / waitKey / VideoCapture / set / read / 
 
-### ch2 : basic functions
+### chapter 2 : basic functions
 
 - cvtColor / GaussianBlur / Canny / dilate / erode
 
