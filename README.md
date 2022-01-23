@@ -1,6 +1,10 @@
 # opencv-python
 opencv-python-practice
 
+## opencv
+
+다양한 이미지나 영상처리에 사용되는 오픈소스 라이브러리
+
 ### chapter 1 : read images - videos - webcam
 
 - imread / imshow / waitKey / VideoCapture / set / read / 
